@@ -4,7 +4,9 @@
 }
 
 body {
-    background: url ('C:\Users\mst33\OneDrive\Desktop\New folder\assets\images\background.jpg') repeat;
+    background-image: url('C:\Users\mst33\OneDrive\Desktop\New folder\Basic-Portfoliooo\assets\images\background.jpg');
+    background-repeat:no repeat;
+    background-color:blue;    
     font-family: Arial, Helvetica, sans-serif;
     overflow: auto;
     color:#777777;
@@ -17,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 header {
-    background:yellow;
+    background:whitesmoke;
     border-bottom: 3px solid #ccc;
     margin-bottom: 30px;
 }
@@ -44,7 +46,7 @@ nav ul li {
 
 nav a {
     color: #333;
-    font-size: 12px;
+    font-size: 15px;
     padding: 0px 15px;
     border-right: 2px solid #4aaaa5;
     text-decoration: none;
@@ -59,6 +61,36 @@ p {
     font-size: 16px;
     line-height: 22px;
     margin-bottom: 20px;
+}
+
+form label {
+    font-size:18px;
+    display:block;
+}
+
+form input, form textarea {
+    width:100%;
+    display: block;
+    margin: 5px 0 20px 0;
+    border: 2px solid 3ccc;
+    padding: 10px;
+    font-size: 16px;
+
+}
+
+textarea {
+    height:300px;
+}
+
+form button {
+    background: #4aaaa5;
+    color:#fff;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size:18px;
+    border:none;
+
+
 }
 
 footer {
@@ -79,6 +111,28 @@ footer {
     margin: 0 15px 15px 0;
     border: 1px solid #777777;
 }
+
+.portfolio-item {
+    position: relative;
+    margin-bottom:20px;
+    width: 45%;
+    float:left;
+    height: 250px;
+}
+
+.portfolio-item:nth-of-type(even){
+    float:right
+}
+
+.portfolio-item h4 {
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    }
 .clearfix {
     display: block;
     clear: both;
@@ -126,3 +180,33 @@ footer {
     width: 60px;
 }
 
+#port1 {
+    background: url('../images/trey.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#port2 {
+    background: url('../images/gordo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat
+}
+#port3 {
+    background: url('../images/jon.jpg');
+    background-size: cover;
+    background-repeat: no-repeat
+}
+#port4 {
+    background: url('../images/page.jpg');
+    background-size: cover;
+    background-repeat: no-repeat  
+}
+#port5 {
+    background: url('../images/ck5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat   
+}
+#port6 {
+    background: url('../images/band.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat  
+}
